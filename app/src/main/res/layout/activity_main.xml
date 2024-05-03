@@ -8,12 +8,20 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:text="Lista De Control"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/whatsapp_image_2024_04_01_at_7_14_36_pm"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="104dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
