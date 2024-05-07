@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#84BB05"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,16 +13,17 @@
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:text="Lista De Control"
+        android:textColor="#FCF9F5"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="58dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="237dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="215dp"
-        android:layout_height="179dp"
+        android:layout_width="164dp"
+        android:layout_height="117dp"
         app:srcCompat="@drawable/whatsapp_image_2024_04_01_at_7_14_36_pm"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="104dp" />
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="283dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
