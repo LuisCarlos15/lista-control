@@ -10,20 +10,62 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
+        android:layout_width="153dp"
+        android:layout_height="21dp"
         android:text="Lista De Control"
         android:textColor="#FCF9F5"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="164dp"
-        android:layout_height="117dp"
-        app:srcCompat="@drawable/whatsapp_image_2024_04_01_at_7_14_36_pm"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:layout_width="171dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253"
+        app:srcCompat="@drawable/whatsapp_image_2024_04_01_at_7_14_36_pm" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <Button
+        android:id="@+id/INGRESAR"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#8B9C98"
+        android:text="INGRESAR"
+        android:textColor="#FCF9F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <Button
+        android:id="@+id/REGISTRARSE"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#8B9C98"
+        android:text="REGISTRASE"
+        android:textColor="#FCF9F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
